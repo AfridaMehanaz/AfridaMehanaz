@@ -1,22 +1,15 @@
-<h1 align="center">Afrida Mehanaz</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Senior ML & GenAI Engineer &nbsp;·&nbsp; Agentic AI &nbsp;·&nbsp; LLMOps &nbsp;·&nbsp; RAG Systems</strong>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Senior+ML+%26+GenAI+Engineer;Agentic+AI+%7C+RAG+Systems+%7C+LLMOps;Building+production+AI+for+finance+%26+mortgage" alt="Typing SVG" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/afrida-mehanaz-b64724192/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="mailto:aafridamehnaz@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/AfridaMehanaz">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afrida-mehanaz-b64724192/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AfridaMehanaz)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aafridamehnaz@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=AfridaMehanaz&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)](https://github.com/AfridaMehanaz)
+
+</div>
 
 ---
 
@@ -30,6 +23,8 @@
 🔷  Deloitte USI      →  AI/ML Client Delivery       |  3+ financial engagements
 ☁️  Infosys / Karvy   →  ML Engineering / DevOps     |  AWS SageMaker, CI/CD
 ```
+
+> 🔭 **Currently building:** `ai-sql-assistant` — NL→SQL agent with schema-aware prompting, multi-table join reasoning and query validation
 
 **What I build:**
 - **RAG pipelines** — 91% retrieval accuracy across 30K+ documents; hybrid vector + BM25 over 500K+ policy docs
@@ -87,24 +82,38 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| [🔍 ai-sql-assistant](https://github.com/AfridaMehanaz/ai-sql-assistant) | NL→SQL agent with schema-aware prompting, multi-table join reasoning, query validation & Streamlit UI. | LangChain · SQLite · FastAPI · Streamlit |
 | [🏢 enterprise-mcp-agent](https://github.com/AfridaMehanaz/enterprise-mcp-agent) | Enterprise AI agent with governed data access via MCP tool calling, Unity Catalog ACLs & vector search. 22 tests. | MCP · LangGraph · ChromaDB · FastAPI |
 | [🏦 mortgage-compliance-rag-agent](https://github.com/AfridaMehanaz/mortgage-compliance-rag-agent) | Production RAG agent for mortgage compliance — citations, guardrails, RAGAS evaluation, CI/CD gates. | RAG · LangChain · FastAPI · Pinecone |
 | [🔒 guardrails-gateway](https://github.com/AfridaMehanaz/guardrails-gateway) | OpenAI-compatible reverse proxy: PII masking, prompt injection blocking, toxicity filtering, rate limiting. 9 tests. | FastAPI · Python · YAML |
 | [🧬 self-healing-rag](https://github.com/AfridaMehanaz/self-healing-rag) | RAG pipeline that grades its own retrieval & answers, self-heals via query rewrite & strict regen. | LangGraph · ChromaDB · LLM-as-judge |
-| [📊 customer-insights-etl-platform](https://github.com/AfridaMehanaz/customer-insights-etl-platform) | ETL + LLM enrichment pipeline: ingest → transform → NLP enrich → SQLite warehouse → Streamlit dashboard. 16 tests. | Python · Groq · SQLite · Streamlit |
 | [🚀 llm-cicd-pipeline](https://github.com/AfridaMehanaz/llm-cicd-pipeline) | CI/CD pipeline running LLM-as-judge quality evals on every push — blocks merges below 0.9 quality threshold. | GitHub Actions · Python · LLM-as-judge |
+| [📊 customer-insights-etl-platform](https://github.com/AfridaMehanaz/customer-insights-etl-platform) | ETL + LLM enrichment pipeline: ingest → transform → NLP enrich → SQLite warehouse → Streamlit dashboard. 16 tests. | Python · Groq · SQLite · Streamlit |
 | [🔍 github-code-review-agent](https://github.com/AfridaMehanaz/github-code-review-agent) | LLM code review agent: structured bugs, security issues, style & suggestions. Streamlit UI + 8 tests. | Python · Groq · Streamlit |
-| [📈 llmops-evaluation-dashboard](https://github.com/AfridaMehanaz/llmops-evaluation-dashboard) | LLMOps dashboard tracking RAG quality, prompt versions, latency & cost. FastAPI backend + CI. | FastAPI · Streamlit · Pydantic |
 
 ---
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AfridaMehanaz&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AfridaMehanaz&layout=compact&theme=dark&hide_border=true" height="150"/>
-</p>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=AfridaMehanaz&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="160"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AfridaMehanaz&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="160"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=AfridaMehanaz&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="150"/>
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AfridaMehanaz/AfridaMehanaz/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</div>
 
 ---
 
@@ -114,6 +123,7 @@
 
 ---
 
-<p align="center">
-  <i>Open to Senior ML / GenAI Engineer roles — <a href="https://www.linkedin.com/in/afrida-mehanaz-b64724192/">connect on LinkedIn</a></i>
-</p>
+<div align="center">
+  <i>Open to Senior ML / GenAI Engineer roles</i><br/>
+  <a href="https://www.linkedin.com/in/afrida-mehanaz-b64724192/">Connect on LinkedIn</a> · <a href="mailto:aafridamehnaz@gmail.com">aafridamehnaz@gmail.com</a> · <a href="https://github.com/AfridaMehanaz">github.com/AfridaMehanaz</a>
+</div>
