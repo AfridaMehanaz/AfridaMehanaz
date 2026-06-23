@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Senior+ML+%26+GenAI+Engineer;Agentic+AI+%7C+RAG+Systems+%7C+LLMOps;Building+production+AI+for+finance+%26+mortgage" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=ML+%26+GenAI+Engineer;RAG+%7C+Agents+%7C+LLMOps+%7C+AI+Safety;Building+production+AI+for+finance+%26+mortgage" alt="Typing SVG" />
 
 <br/>
 
@@ -13,30 +13,20 @@
 
 ---
 
-## About Me
+## What I Build
 
-**6+ years** building production-grade LLM applications, agentic AI systems and ML platforms — currently at **Fannie Mae** leading enterprise GenAI for mortgage operations and compliance.
+Production LLM applications, agentic AI systems and ML platforms — specializing in **RAG pipelines, AI safety, LLMOps and multi-agent workflows** for finance and mortgage domains.
 
 ```
-🏦  Fannie Mae        →  Enterprise GenAI Platform  |  20+ models in production
-🏛️  U.S. Bank         →  Fraud Detection ML         |  30M+ daily transactions
-🔷  Deloitte USI      →  AI/ML Client Delivery       |  3+ financial engagements
-☁️  Infosys / Karvy   →  ML Engineering / DevOps     |  AWS SageMaker, CI/CD
+RAG · Agentic AI · LLMOps · AI Safety · NLP · MLOps · Data Engineering
+Fannie Mae · U.S. Bank · Deloitte USI
 ```
 
-> 🔭 **Currently building:** `ai-sql-assistant` — NL→SQL agent with schema-aware prompting, multi-table join reasoning and query validation
-
-**What I build:**
-- **RAG pipelines** — 91% retrieval accuracy across 30K+ documents; hybrid vector + BM25 over 500K+ policy docs
-- **Agentic AI workflows** — processing 800+ mortgage documents/week, cutting analyst review time 40%
-- **Compliance automation** — LangGraph agent reducing manual review from 5 days → under 8 hours across 200+ criteria
-- **Fraud detection** — 94% fraud capture rate, ~$3.2M/month saved; 30M+ transactions/day on XGBoost + anomaly detection
-- **ML platforms** — 10M+ records/day feature engineering on Spark; 60% faster deployment cycles via MLflow + SageMaker
-- **Production APIs** — FastAPI endpoints handling 500+ req/sec; 2B+ monthly transaction records processed
+> 🔭 **Currently building:** `lora-finetuning` — LoRA/QLoRA domain adaptation of open LLMs with training, eval and inference scripts
 
 ---
 
-## Tech Stack
+## Skills
 
 **GenAI & LLMs**
 
@@ -48,8 +38,9 @@
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
 ![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=flat-square)
+![LoRA](https://img.shields.io/badge/LoRA%2FQLoRA-FF6B6B?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 
 **ML & Data Science**
 
@@ -78,18 +69,42 @@
 
 ---
 
-## Featured Projects
+## Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| [🔍 ai-sql-assistant](https://github.com/AfridaMehanaz/ai-sql-assistant) | NL→SQL agent with schema-aware prompting, multi-table join reasoning, query validation & Streamlit UI. | LangChain · SQLite · FastAPI · Streamlit |
-| [🏢 enterprise-mcp-agent](https://github.com/AfridaMehanaz/enterprise-mcp-agent) | Enterprise AI agent with governed data access via MCP tool calling, Unity Catalog ACLs & vector search. 22 tests. | MCP · LangGraph · ChromaDB · FastAPI |
-| [🏦 mortgage-compliance-rag-agent](https://github.com/AfridaMehanaz/mortgage-compliance-rag-agent) | Production RAG agent for mortgage compliance — citations, guardrails, RAGAS evaluation, CI/CD gates. | RAG · LangChain · FastAPI · Pinecone |
-| [🔒 guardrails-gateway](https://github.com/AfridaMehanaz/guardrails-gateway) | OpenAI-compatible reverse proxy: PII masking, prompt injection blocking, toxicity filtering, rate limiting. 9 tests. | FastAPI · Python · YAML |
-| [🧬 self-healing-rag](https://github.com/AfridaMehanaz/self-healing-rag) | RAG pipeline that grades its own retrieval & answers, self-heals via query rewrite & strict regen. | LangGraph · ChromaDB · LLM-as-judge |
-| [🚀 llm-cicd-pipeline](https://github.com/AfridaMehanaz/llm-cicd-pipeline) | CI/CD pipeline running LLM-as-judge quality evals on every push — blocks merges below 0.9 quality threshold. | GitHub Actions · Python · LLM-as-judge |
-| [📊 customer-insights-etl-platform](https://github.com/AfridaMehanaz/customer-insights-etl-platform) | ETL + LLM enrichment pipeline: ingest → transform → NLP enrich → SQLite warehouse → Streamlit dashboard. 16 tests. | Python · Groq · SQLite · Streamlit |
-| [🔍 github-code-review-agent](https://github.com/AfridaMehanaz/github-code-review-agent) | LLM code review agent: structured bugs, security issues, style & suggestions. Streamlit UI + 8 tests. | Python · Groq · Streamlit |
+### 🧠 RAG & Compliance
+
+| Repo | What it does |
+|---|---|
+| [self-healing-rag](https://github.com/AfridaMehanaz/self-healing-rag) | RAG pipeline that grades its own retrieval + answers via LLM-as-judge, self-heals through query rewrite, strict regen and honest fallback |
+| [mortgage-compliance-rag-agent](https://github.com/AfridaMehanaz/mortgage-compliance-rag-agent) | Production-style mortgage compliance RAG — FastAPI, source citations, guardrails, RAGAS evaluation, CI gates |
+
+### 🔒 AI Safety
+
+| Repo | What it does |
+|---|---|
+| [guardrails-gateway](https://github.com/AfridaMehanaz/guardrails-gateway) | OpenAI-compatible reverse proxy enforcing LLM safety: PII masking, prompt-injection blocking, toxicity filtering, rate limiting — YAML-configured |
+
+### 📊 LLMOps
+
+| Repo | What it does |
+|---|---|
+| [llm-cicd-pipeline](https://github.com/AfridaMehanaz/llm-cicd-pipeline) | CI/CD for LLM apps — LLM-as-judge evals in GitHub Actions block prompt regressions below 0.9 quality threshold |
+| [llmops-evaluation-dashboard](https://github.com/AfridaMehanaz/llmops-evaluation-dashboard) | LLMOps dashboard tracking RAG quality, prompt versions, latency and cost — FastAPI + Streamlit + CI |
+
+### 🤖 Agents
+
+| Repo | What it does |
+|---|---|
+| [ai-sql-assistant](https://github.com/AfridaMehanaz/ai-sql-assistant) | NL→SQL agent over synthetic Meridian Bank SQLite DB — schema-aware prompting, read-only guard, self-correction, Streamlit UI |
+| [enterprise-mcp-agent](https://github.com/AfridaMehanaz/enterprise-mcp-agent) | Enterprise agent with governed data access via MCP tool calling, Unity Catalog ACLs, vector search — LangGraph-inspired state machine |
+| [github-code-review-agent](https://github.com/AfridaMehanaz/github-code-review-agent) | LLM agent that analyzes code files/diffs and returns structured feedback: bugs, security issues, style, suggestions — Streamlit UI |
+| [claude-code-review-agent](https://github.com/AfridaMehanaz/claude-code-review-agent) | GitHub Action that auto-reviews PRs via Claude API and posts structured review comments directly on the PR |
+
+### 🔧 Data Engineering
+
+| Repo | What it does |
+|---|---|
+| [customer-insights-etl-platform](https://github.com/AfridaMehanaz/customer-insights-etl-platform) | End-to-end ETL + LLM enrichment for customer feedback — ingest, clean, NLP enrich (sentiment, topics, entities, urgency) via Groq, load to SQLite |
 
 ---
 
@@ -103,7 +118,7 @@
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=AfridaMehanaz&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="150"/>
+<img src="https://streak-stats.demolab.com?user=AfridaMehanaz&theme=github-dark&hide_border=true" height="150"/>
 
 </div>
 
@@ -125,5 +140,5 @@
 
 <div align="center">
   <i>Open to Senior ML / GenAI Engineer roles</i><br/>
-  <a href="https://www.linkedin.com/in/afrida-mehanaz-b64724192/">Connect on LinkedIn</a> · <a href="mailto:aafridamehnaz@gmail.com">aafridamehnaz@gmail.com</a> · <a href="https://github.com/AfridaMehanaz">github.com/AfridaMehanaz</a>
+  <a href="https://www.linkedin.com/in/afrida-mehanaz-b64724192/">LinkedIn</a> · <a href="mailto:aafridamehnaz@gmail.com">aafridamehnaz@gmail.com</a> · <a href="https://github.com/AfridaMehanaz">github.com/AfridaMehanaz</a>
 </div>
