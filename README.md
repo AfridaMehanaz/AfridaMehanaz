@@ -50,25 +50,30 @@ I ship the **full LLM lifecycle**, not just models:
 
 <!--START_SECTION:projects-->
 **🔍 RAG & Retrieval**
-- [**self-healing-rag**](https://github.com/AfridaMehanaz/self-healing-rag) — detects hallucinations & bad retrieval via LLM-as-judge, auto-recovers through query rewrite, strict regen, and honest fallback.
-- [**mortgage-compliance-rag-agent**](https://github.com/AfridaMehanaz/mortgage-compliance-rag-agent) — production-style mortgage compliance RAG with citations, guardrails, evaluation, and CI.
+- [**llmops-evaluation-dashboard**](https://github.com/AfridaMehanaz/llmops-evaluation-dashboard) — Production-style LLMOps dashboard for tracking RAG quality, prompt versions, latency, and cost. FastAPI backend, Streamlit UI, CI-tested evaluation logic — no paid API required.
+- [**mortgage-compliance-rag-agent**](https://github.com/AfridaMehanaz/mortgage-compliance-rag-agent) — Production-style mortgage compliance RAG agent with FastAPI, citations, guardrails, evaluation, and CI.
+- [**self-healing-rag**](https://github.com/AfridaMehanaz/self-healing-rag) — RAG pipeline that detects hallucinations and bad retrieval, then heals itself — LangGraph + ChromaDB + LLM-as-judge.
 
 **🛡️ AI Safety**
-- [**guardrails-gateway**](https://github.com/AfridaMehanaz/guardrails-gateway) — reverse proxy enforcing LLM safety: PII masking, prompt-injection blocking, toxicity filtering, rate limiting — YAML-configured.
+- [**guardrails-gateway**](https://github.com/AfridaMehanaz/guardrails-gateway) — OpenAI-compatible reverse proxy enforcing LLM safety policy: PII masking, prompt-injection blocking, toxicity filtering, rate limiting — YAML-configured. FastAPI.
 
 **⚙️ LLMOps**
-- [**llm-cicd-pipeline**](https://github.com/AfridaMehanaz/llm-cicd-pipeline) — LLM-as-judge evals in GitHub Actions block quality regressions before merge.
-- [**llmops-evaluation-dashboard**](https://github.com/AfridaMehanaz/llmops-evaluation-dashboard) — tracks RAG quality, prompt versions, latency, and cost.
+- [**lora-finetuning**](https://github.com/AfridaMehanaz/lora-finetuning) — LoRA/QLoRA fine-tuning of an open LLM on a domain dataset — training, adapters, evaluation. Python
+- [**llm-cicd-pipeline**](https://github.com/AfridaMehanaz/llm-cicd-pipeline) — CI/CD for LLM apps: versioned prompts quality-gated by LLM-as-judge evals in GitHub Actions — regressions blocked before merge.
 
 **🤖 Agents**
-- [**ai-sql-assistant**](https://github.com/AfridaMehanaz/ai-sql-assistant) — natural-language-to-SQL over a banking DB with read-only safety guard and self-correction.
-- [**enterprise-mcp-agent**](https://github.com/AfridaMehanaz/enterprise-mcp-agent) — governed data access via MCP tool calling, Unity Catalog ACLs, and vector search.
-- [**github-code-review-agent**](https://github.com/AfridaMehanaz/github-code-review-agent) — structured code feedback: bugs, security, style.
-- [**claude-code-review-agent**](https://github.com/AfridaMehanaz/claude-code-review-agent) — GitHub Action auto-reviewing pull requests.
+- [**multi-agent-system**](https://github.com/AfridaMehanaz/multi-agent-system) — Five specialist LLM agents collaborate via LangGraph to produce research briefs, with a critic revision loop and a visual Streamlit workspace.
+- [**claude-code-review-agent**](https://github.com/AfridaMehanaz/claude-code-review-agent) — GitHub Action that automatically reviews pull requests using Claude — fetches the diff, sends it to the Anthropic API, and posts structured feedback as a PR comment.
+- [**github-code-review-agent**](https://github.com/AfridaMehanaz/github-code-review-agent) — LLM-powered code review agent that analyzes code files and diffs, returning structured feedback: bugs, security issues, style issues, and suggestions. Streamlit UI, no GitHub write access.
+- [**enterprise-mcp-agent**](https://github.com/AfridaMehanaz/enterprise-mcp-agent) — Enterprise AI agent with governed data access via MCP tool calling, Unity Catalog ACLs, vector search, and a LangGraph-inspired multi-tool state machine.
+- [**ai-sql-assistant**](https://github.com/AfridaMehanaz/ai-sql-assistant) — LLM agent: natural-language questions to safe read-only SQL over a banking DB, with self-correction. Synthetic data. Python + Streamlit.
 
 **🔧 Fine-tuning & Data**
-- [**lora-finetuning**](https://github.com/AfridaMehanaz/lora-finetuning) — LoRA/QLoRA fine-tuning of an open model with training and evaluation.
-- [**customer-insights-etl-platform**](https://github.com/AfridaMehanaz/customer-insights-etl-platform) — ETL + LLM enrichment (sentiment, topics, entities) for customer feedback.
+- [**fraud-detection-ml**](https://github.com/AfridaMehanaz/fraud-detection-ml) — Production-style credit-card fraud detection: XGBoost on imbalanced data, SMOTE, threshold tuning, FastAPI serving, PSI drift monitoring. Synthetic data.
+- [**customer-insights-etl-platform**](https://github.com/AfridaMehanaz/customer-insights-etl-platform) — End-to-end ETL + LLM enrichment platform for customer feedback: ingest, clean, enrich with NLP (sentiment, topics, entities, urgency) via Groq, load to SQLite warehouse, visualize in Streamlit.
+
+**📦 Other projects**
+- [**multimodal-medical-assistant**](https://github.com/AfridaMehanaz/multimodal-medical-assistant) — Multimodal medical assistant: CNN vision model classifies chest X-rays, LLM explains findings in plain language. PyTorch + MobileNetV3 + FastAPI + Streamlit. Educational only.
 <!--END_SECTION:projects-->
 
 ---
