@@ -73,6 +73,7 @@ I ship the **full LLM lifecycle**, not just models:
 - [**customer-insights-etl-platform**](https://github.com/AfridaMehanaz/customer-insights-etl-platform) — End-to-end ETL + LLM enrichment platform for customer feedback: ingest, clean, enrich with NLP (sentiment, topics, entities, urgency) via Groq, load to SQLite warehouse, visualize in Streamlit.
 
 **📦 Other projects**
+- [**cuas-takehome**](https://github.com/AfridaMehanaz/cuas-takehome) — Computer-use automation system: LLM discovers a legacy UI flow once, records it as a deterministic artifact, and replays it without an LLM.
 - [**multimodal-medical-assistant**](https://github.com/AfridaMehanaz/multimodal-medical-assistant) — Multimodal medical assistant: CNN vision model classifies chest X-rays, LLM explains findings in plain language. PyTorch + MobileNetV3 + FastAPI + Streamlit. Educational only.
 <!--END_SECTION:projects-->
 
