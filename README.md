@@ -55,6 +55,7 @@ I ship the **full LLM lifecycle**, not just models:
 - [**self-healing-rag**](https://github.com/AfridaMehanaz/self-healing-rag) — RAG pipeline that detects hallucinations and bad retrieval, then heals itself — LangGraph + ChromaDB + LLM-as-judge.
 
 **🛡️ AI Safety**
+- [**actionwall**](https://github.com/AfridaMehanaz/actionwall) — A policy firewall for what AI agents do: shell, file, network and tool calls checked before they run, with secret taint tracking and a tamper-evident audit log.
 - [**guardrails-gateway**](https://github.com/AfridaMehanaz/guardrails-gateway) — OpenAI-compatible reverse proxy enforcing LLM safety policy: PII masking, prompt-injection blocking, toxicity filtering, rate limiting — YAML-configured. FastAPI.
 
 **⚙️ LLMOps**
@@ -62,15 +63,16 @@ I ship the **full LLM lifecycle**, not just models:
 - [**llm-cicd-pipeline**](https://github.com/AfridaMehanaz/llm-cicd-pipeline) — CI/CD for LLM apps: versioned prompts quality-gated by LLM-as-judge evals in GitHub Actions — regressions blocked before merge.
 
 **🤖 Agents**
+- [**memanchor**](https://github.com/AfridaMehanaz/memanchor) — Persistent memory for coding agents (Claude Code, Cursor, Codex) over MCP: memories anchored to files and flagged stale when the code changes, with secret redaction.
+- [**enterprise-mcp-agent**](https://github.com/AfridaMehanaz/enterprise-mcp-agent) — Enterprise AI agent with governed data access via MCP tool calling, Unity Catalog ACLs, vector search, and a LangGraph-inspired multi-tool state machine.
+- [**ai-sql-assistant**](https://github.com/AfridaMehanaz/ai-sql-assistant) — LLM agent: natural-language questions to safe read-only SQL over a banking DB, with self-correction. Synthetic data. Python + Streamlit.
 - [**multi-agent-system**](https://github.com/AfridaMehanaz/multi-agent-system) — Five specialist LLM agents collaborate via LangGraph to produce research briefs, with a critic revision loop and a visual Streamlit workspace.
 - [**claude-code-review-agent**](https://github.com/AfridaMehanaz/claude-code-review-agent) — GitHub Action that automatically reviews pull requests using Claude — fetches the diff, sends it to the Anthropic API, and posts structured feedback as a PR comment.
 - [**github-code-review-agent**](https://github.com/AfridaMehanaz/github-code-review-agent) — LLM-powered code review agent that analyzes code files and diffs, returning structured feedback: bugs, security issues, style issues, and suggestions. Streamlit UI, no GitHub write access.
-- [**enterprise-mcp-agent**](https://github.com/AfridaMehanaz/enterprise-mcp-agent) — Enterprise AI agent with governed data access via MCP tool calling, Unity Catalog ACLs, vector search, and a LangGraph-inspired multi-tool state machine.
-- [**ai-sql-assistant**](https://github.com/AfridaMehanaz/ai-sql-assistant) — LLM agent: natural-language questions to safe read-only SQL over a banking DB, with self-correction. Synthetic data. Python + Streamlit.
 
 **🔧 Fine-tuning & Data**
-- [**fraud-detection-ml**](https://github.com/AfridaMehanaz/fraud-detection-ml) — Production-style credit-card fraud detection: XGBoost on imbalanced data, SMOTE, threshold tuning, FastAPI serving, PSI drift monitoring. Synthetic data.
 - [**customer-insights-etl-platform**](https://github.com/AfridaMehanaz/customer-insights-etl-platform) — End-to-end ETL + LLM enrichment platform for customer feedback: ingest, clean, enrich with NLP (sentiment, topics, entities, urgency) via Groq, load to SQLite warehouse, visualize in Streamlit.
+- [**fraud-detection-ml**](https://github.com/AfridaMehanaz/fraud-detection-ml) — Production-style credit-card fraud detection: XGBoost on imbalanced data, SMOTE, threshold tuning, FastAPI serving, PSI drift monitoring. Synthetic data.
 
 **📦 Other projects**
 - [**cuas-takehome**](https://github.com/AfridaMehanaz/cuas-takehome) — Computer-use automation system: LLM discovers a legacy UI flow once, records it as a deterministic artifact, and replays it without an LLM.
